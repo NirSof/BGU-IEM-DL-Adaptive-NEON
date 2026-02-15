@@ -51,9 +51,13 @@ Using Elucidated Diffusion Models (EDM), we performed a Grid Search over block w
 ## Repository Structure
 
 ```text
-├── toy_problem.py        # Code for the 2D Gaussian experiment and visualization
-├── edm_sampler.py        # Modified EDM sampler supporting block-wise extrapolation
-├── grid_search.py        # Script for optimizing weights over the validation set
-├── generate.py           # Main generation script
-├── requirements.txt      # Dependencies
+├── DL_TOY.ipynb          # Interactive Colab notebook (Toy Problem & Visualization)
+├── grid_search.py        # Core logic: Block-Wise Extrapolation & FID evaluation
+├── run_experiment.sh     # SLURM script for running experiments on HPC clusters
+├── edm/                  # Network definitions (Adapted from official NEON repo)
+│   ├── networks.py       # U-Net architecture definition
+│   └── ...
+├── assets/               # Images and figures for README
+├── requirements.txt      # Project dependencies
+├── LICENSE               # Project License
 └── README.md             # Project documentation
