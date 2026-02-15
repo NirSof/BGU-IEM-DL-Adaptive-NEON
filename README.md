@@ -6,7 +6,7 @@
 **Authors:** Nir Soffer (nirsof@post.bgu.ac.il), Amitay Granada (granada@post.bgu.ac.il)
 
 ---
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NirSof/BGU-IEM-DL-Adaptive-NEON/blob/main/DL_TOY.ipynb)
 ## Overview
 This project addresses the phenomenon of **Model Collapse** in generative AI—a degenerative process where models trained on synthetic data progressively lose diversity and quality.
 
